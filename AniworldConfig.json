@@ -1,0 +1,36 @@
+{
+	"name": "Aniworld",
+	"description": "Aniworld.to integration for Grayjay",
+	"author": "Zerophire",
+	"authorUrl": "https://ahwnis.com",
+	"platformUrl": "https://aniworld.to",
+	"sourceUrl": "https://plugins.grayjay.app/Odysee/OdyseeConfig.json",
+	"repositoryUrl": "https://gitlab.futo.org/videostreaming/plugins/odysee",
+	"scriptUrl": "./AniworldScript.js",
+  	"version": 56,
+	"iconUrl": "./AniworldIcon.png",
+	"id": "ac3f49ee-f398-5cf4-ac1b-ca1aace76c83",
+	"scriptSignature": "",
+	"scriptPublicKey": "",
+	"packages": [
+		"Http"
+	],
+	"allowEval": false,
+	"allowUrls": [
+		"aniworld.to"
+	],
+	"supportedClaimTypes": [
+		3
+	],
+	"authentication": {
+		"loginUrl": "https://aniworld.to/login",
+		"userAgent": "Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36",
+		"domainHeadersToFind": {}
+	},
+	"settings": [],
+	"changelog": {
+		"51": [
+			"Initial version: Basic search, series listing"
+		]
+	}
+}
