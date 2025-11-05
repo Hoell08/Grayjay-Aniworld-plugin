@@ -1,0 +1,30 @@
+{
+  "name": "Aniworld",
+  "description": "Aniworld.to integration for Grayjay",
+  "author": "Zerophire, Bluscream, Cursor.AI",
+  "authorUrl": "https://github.com/Bluscream",
+  "platformUrl": "https://aniworld.to",
+  "sourceUrl": "https://raw.githubusercontent.com/grayjay-sources/grayjay-source-aniworld/main/config.json",
+  "repositoryUrl": "https://github.com/grayjay-sources/grayjay-source-aniworld",
+  "scriptUrl": "./script.js",
+  "version": 1,
+  "iconUrl": "./icon.png",
+  "id": "ac3f49ee-f398-5cf4-ac1b-ca1aace76c83",
+  "scriptSignature": "",
+  "scriptPublicKey": "",
+  "packages": ["Http", "DOMParser"],
+  "allowEval": false,
+  "allowUrls": ["aniworld.to"],
+  "supportedClaimTypes": [3],
+  "authentication": {
+    "loginUrl": "https://aniworld.to/login",
+    "userAgent": "Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36",
+    "domainHeadersToFind": {
+      "aniworld.to": []
+    }
+  },
+  "settings": [],
+  "changelog": {
+    "1": ["Initial version: Basic search, series listing"]
+  }
+}
